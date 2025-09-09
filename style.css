@@ -92,3 +92,82 @@ nav {
   font-weight: 600;
   font-size: 16px;
 }
+
+/* Banner  */
+.banner {
+  background: rgb(254, 234, 233);
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  padding: 28px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.banner h2 {
+  color: rgb(31, 31, 31);
+  font-size: 52px;
+  font-weight: bold;
+}
+.banner p {
+  color: #4e4e4e;
+  max-width: 500px;
+}
+.banner img {
+  width: 402px;
+  height: 378px;
+}
+.banner-price {
+  color: #ff136f;
+  font-weight: bold;
+  font-size: 52px;
+  margin-bottom: 35px;
+  display: block;
+  margin-bottom: 0;
+}
+
+/* Category */
+.categories {
+  margin: 64px auto;
+}
+.categories-card-container {
+  display: flex;
+  gap: 26px;
+  width: 100%;
+}
+.category-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+.category-card h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.category-card:nth-child(1) {
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+}
+.category-card:nth-child(2) {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+}
+.category-card:nth-child(3) {
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+}

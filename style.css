@@ -171,3 +171,74 @@ nav {
     rgb(63, 7, 248) 74.29%
   );
 }
+
+/* shoes and bag section */
+.shoes-backpack-parent {
+  background: rgb(244, 244, 244);
+}
+
+.shoes-backpack-section-title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.shoes-backpack-section-title-parent h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.shoes-backpack-section-title-parent p {
+  font-size: 20px;
+  color: #ff9d00;
+}
+
+/* shoes */
+.shoes-section {
+  padding: 50px 0;
+}
+.shoe-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.shoe-card {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+.card-price {
+  display: block;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.shoe-card img {
+  width: 336px;
+  height: 202px;
+}
+.shoe-card .panda-btn {
+  background: black;
+}
+
+/* contact */
+.contact-us-parent {
+  background-color: #fff2f1;
+  text-align: center;
+  padding: 35px 20px;
+  margin: 35px auto;
+  border-radius: 15px;
+}
+
+.contact-inp-btn-parent {
+  display: flex;
+  justify-content: center;
+}
+.contact-inp-btn-parent input {
+  border: none;
+  padding: 15px 152px;
+}
+.contact-inp-btn-parent .panda-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
